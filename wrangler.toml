@@ -1,3 +1,8 @@
 name = "sveltia-cms-auth"
 main = "src/index.js"
 compatibility_date = "2023-03-24"
+
+# Nicht geheime Einstellungen (GITHUB_CLIENT_SECRET bleibt als Secret im Cloudflare-Dashboard)
+[vars]
+ALLOWED_DOMAINS = "coaching.recanto.cc"
+GITHUB_CLIENT_ID = "Ov23liCHpbPLzfgVf12Y"
